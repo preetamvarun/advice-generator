@@ -1,3 +1,3 @@
 preview 🎥
 
-preview will be added shortly
+<img src = "images/adv.gif" alt = "preview">
