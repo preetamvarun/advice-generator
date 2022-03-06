@@ -10,7 +10,7 @@
     --greyish-blue : hsl(217, 19%, 38%);
     --dark-greyish-blue : hsl(217, 19%, 24%);
     --dark-blue : hsl(218, 23%, 16%);
-    --quoet-font-size : 28px;
+    --quote-font-size : 28px;
     --font-weight : 800px;
 }
 
@@ -40,7 +40,7 @@ body{
 
 .advice-heading{
     color : var(--neon-green);
-    font-size : .85rem;
+    font-size : .9rem;
     margin-top : 40px;
 }
 

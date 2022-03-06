@@ -12,10 +12,11 @@ let getAdvice = (url) => {
         advice.textContent +=  data.slip.advice;
         advice.innerHTML += '<span>&#8221;</span>';
         adv.innerHTML = `Advice <span id = "advice-id">#${data.slip.id}</span>`;
-        // adviceId.textContent = "#" + data.slip.id;
     })
     .catch(err => (console.log(err)));
 }
 
 
 generateAdvice.addEventListener('click',() => getAdvice("https://api.adviceslip.com/advice"));
+
+document.addEventListener('DOMContentLoaded', () => getAdvice("https://api.adviceslip.com/advice"));
