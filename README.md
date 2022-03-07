@@ -3,4 +3,4 @@
 <img src = "adv.gif" alt = "preview">
 
 ## live demo 🛰️
-https://gen-advice.netlify.app/
+<a href = "https://gen-advice.netlify.app/" target = "_blank">
